@@ -14,4 +14,6 @@ import modelo.Libro;
 public interface ILibroServicio {
     public Libro crear(Libro libro);
     public List<Libro> listar();
+    public Libro buscarPorCodigo(int codigoLibro);
+    public int buscarPosicion(Libro Libro);
 }
